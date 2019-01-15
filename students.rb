@@ -8,11 +8,11 @@ class Student
     @student_cohort = student_cohort
   end
 
-  def student_name
+  def student_name()
     return @student_name
   end
 
-  def student_cohort
+  def student_cohort()
     return @student_cohort
   end
 
@@ -25,7 +25,7 @@ class Student
 
   end
 
-  def talk
+  def talk()
 
       return "I can talk"
     end
